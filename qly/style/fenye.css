@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*分页基础样式*/
+.location{ width:730px; height:35px; padding-left:40px; line-height:35px; color:#000; font-weight:normal; font-size:14px; background:url(../images/fenyebg.png) no-repeat;}
+.location a{ color:#000; padding:0px 5px; font-size:14px;}
+.location a:hover{ color:#fff;}
+.fenye_concent{ width:770px; min-height:870px; background:#fffdea; border-bottom:#eae5b4 solid 1px; border-left:#eae5b4 solid 1px; border-right:#eae5b4 solid 1px;}
+.rfbg{ width:770px; height:6px; background:url(../images/tabbgf.png) no-repeat;}
+
+/*新闻列表*/
+.nwes_list{ margin-left:60px; padding-top:10px;}
+.nwes_list li{ width:620px; line-height:40px; border-bottom:#d6d2c6 dashed 1px;}
+.nwes_list li a{ display:inline-block; width:580px; color:#000; line-height:40px;}
+.nwes_list li span{  color:#000;}
+.nwes_list a:hover{ text-decoration:none;}
+.nwes_list li:hover span{ color:#99c729;}
+.nwes_list li:hover a{ color:#99c729;}
+
+/*分页样式*/
+
+#pagebreak{ position:absolute; bottom:30px; left:490px; text-align:center; margin-top:20px;}
+#pagebreak a{ padding:0px 10px; color:#000;}
+#pagebreak a:hover{ color:#99c729;}
+#pagebreak span{ padding:0px 10px; padding-right:15px; color:#000;}
+
+#prev{ background:url(../images/pageprev.jpg) no-repeat left; padding-left:20px;}
+#prev:hover{ background:url(../images/pageprevh.jpg) no-repeat left;}
+#next{ background:url(../images/pagenext.jpg) no-repeat left; padding-left:20px;}
+#next:hover{ background:url(../images/pagenexth.jpg) no-repeat left;}
+
+/*文章内容*/
+.fenye_concent h3{ color:#a0d824; text-align:center; font-size:21px; font-weight:normal; line-height:35px; padding-top:20px;}
+.fenye_concent .time1{ text-align:center; color:#00; margin-bottom:10px;}
+.fenye_concent .line{ width:100%; height:3px; background:url(../images/line.png) no-repeat left;}
+.neirong{ width:660px; margin-top:32px; margin-left:55px; color:#000; line-height:25px; padding-bottom:100px;}
+.neirong a{ color:#000; line-height:25px;}
+
+.pagenav{ position:absolute; bottom:30px; left:272px; width:665px;}
+.pagenav p{ line-height:30ox;}
+.pagenav p a{ color:#000; line-height:30px;}
+.pagenav p a:hover{ color:#99c729;}
+
+
+/*服务器列表*/
+.zjdlfwq{ margin-left:70px; padding-top:25px;}
+.zjdlfwq p{ color:#000; font-size:14px; }
+.severlibg1{ margin-top:20px;}
+.severlibg1 li{ position:relative; float:left; width:279px; height:37px; text-align:center; margin-right:18px;}
+.severlibg1 li .severzt{ position:absolute; left:20px; top:12px; width:14px; height:14px; z-index:3; opacity:0;}
+.severlibg1 li a{ display:block; width:279px; height:37px; line-height:37px; color:#000; background:url(../images/severtablibg1.png) no-repeat;}
+.severlibg1 li a:hover{ background:url(../images/severtablibg1h.png) no-repeat; color:#0a2f5a; text-decoration:none;}
+
+.severtab{ margin-left:70px; margin-top:25px;}
+
+.severtab p{ float:left; color:#000; font-size:14px;}
+.severtab_head{}
+.severtab_head li{ float:left; color:#000; font-size:14px; margin:0 10px; margin-bottom:20px; cursor:pointer;}
+.severtab_head .acvtiv{ color:#99c729;}
+.severtab_con{ display:none;}
+
+.severlibg2{ margin-top:20px;}
+.severlibg2 li{ position:relative; float:left; width:279px; height:37px; text-align:center; margin-right:18px; margin-bottom:20px;}
+.severlibg2 li .severzt{ position:absolute; left:19px; top:12px; width:14px; height:14px; z-index:3; opacity:0;}
+.severlibg2 li a{ display:block; width:279px; height:37px; line-height:37px; color:#000; background:url(../images/severtablibg2.png) no-repeat;}
+.severlibg2 li a:hover{ background:url(../images/severtablibg2h.png) no-repeat; color:#06264c; text-decoration:none;}
+
+
+/*游戏截图*/
+.img_list{ margin-left:50px; padding-top:0px;}
+.img_list li{ float:left; margin-bottom:20px; margin-top:25px;}
+.img_list li a img{ border:#fff solid 3px;}
+.img_list li span{ display:block; text-align:center; color:#111; line-height:30px; font-size:14px;}
+.img_list li a:hover span{ color:#009bb8;}
+
+
+/*礼包*/
+.libao{ position:relative; margin-left:25px; width:680px; border-bottom:#7f7f7f solid 1px; padding-bottom:20px;}
+.libao figure{ float:left; margin-top:30px;}
+.libao figure img{ border:#14b9ea solid 2px; border-radius:3px;}
+.libao_con{ float:left; width:450px; margin-left:15px; margin-top:30px;}
+.libao_con p{ color:#000; font-size:12px; margin-bottom:7px;}
+.lobao_dis{ border-top:#073162 dashed 1px; padding-top:10px;}
+.lobao_dis span{ float:left; display:block; color:#000;}
+.lobao_dis p{ float:left; width:380px; color:#000;}
+
+.libaobtn{ position:absolute; top:40px; right:50px; display:block; width:88px; height:37px; background:url(../images/libaobtn.png) no-repeat; text-indent:-9999px;}
+.libaobtn:hover{ background:url(../images/libaobtnh.png) no-repeat; cursor:pointer;}
+.jhmbg{ display:none; position:absolute; top:30px; right:10px; width:300px; color:#00d8ff;}
+

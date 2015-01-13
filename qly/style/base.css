@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*基础样式*/
+*{ margin:0;padding:0;}
+li{ list-style:none;}
+body{ font-family:"微软雅黑"; font-size:12px;}
+a{ text-decoration:none; font-size:12px;}
+a,img{ border:0;}
+a:hover{ text-decoration:underline; color:#99c729;}
+
+/*背景样式*/
+#wrap{ max-width:1920px;min-width:1020px;_width:expression((document.documentElement.clientWidth>1920||document.body.clientWidth>1920)?"1020px":"100%"); background-color:#fff;}
+#bg1{ width:100%; background:#fff;}
+#bg2{ width:100%; background:url(../images/bg.jpg) no-repeat top center;}
+#main{ position:relative; width:980px; margin:0 auto; padding-bottom:40px;}
+
+/*头部样式*/
+.header{ position:relative; width:1020px; height:630px;}
+.nav{ height:55px;}
+.nav ul li{ float:left; width:79px; height:22px; margin-left:55px; margin-top:15px;}
+.nav ul li a{ display:block; width:79px; height:22px; text-indent:-9999px; color:#FFF;}
+.navtext1{ background:url(../images/navtext1.png) no-repeat; margin-left:0px !important;}
+.navtext1:hover{ background:url(../images/navtexth1.png) no-repeat;}
+.navtext2{ background:url(../images/navtext2.png) no-repeat;}
+.navtext2:hover{ background:url(../images/navtexth2.png) no-repeat;}
+.navtext3{ background:url(../images/navtext3.png) no-repeat;}
+.navtext3:hover{ background:url(../images/navtexth3.png) no-repeat;}
+.navtext4{ background:url(../images/navtext4.png) no-repeat;}
+.navtext4:hover{ background:url(../images/navtexth4.png) no-repeat;}
+.navtext5{ background:url(../images/navtext5.png) no-repeat;}
+.navtext5:hover{ background:url(../images/navtexth5.png) no-repeat;}
+.navtext6{ background:url(../images/navtext6.png) no-repeat;}
+.navtext6:hover{ background:url(../images/navtexth6.png) no-repeat;}
+
+
+
+/*内容样式*/
+.concent{ position:relative; width:1020px;}
+.left{ float:left; width:240px; background:url(../images/leftbg.png) no-repeat 0px 85px;}
+.right{ float:right; width:770px; margin-top:12px;}
+
+/*底部样式*/
+.footerbg{ max-width:1920px;min-width:1020px;_width:expression((document.documentElement.clientWidth>1920||document.body.clientWidth>1920)?"1020px":"100%"); background:#fff;}
+.footer{ position:relative; width:1020px; margin:0 auto; height:135px; padding-top:15px; padding-bottom:15px;}
+.footer p{ text-align:center; line-height:25px; color:#3f4555;}
+.footer p a{ color:#3f4555;}
+.footer .logo2181{ position:absolute; top:25px; left:150px;}
+
+/*弹出层*/
+.allphotoboxbg{ display:block; position:absolute; top:0px; height:0px; background:#000000; opacity:0.9; z-index:50;}
+.photoboxbg{ position:fixed; left:30%; top:110px; padding:10px; background:#919191; z-index:99;}
+#closed{ position:absolute; top:0px; right:-41px; width:41px; height:41px; cursor:pointer; z-index:100; background:url(../images/closed.jpg) no-repeat;}
+#closed:hover{ background:url(../images/closedh.jpg) no-repeat;}
+

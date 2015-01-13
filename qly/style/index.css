@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*banner*/
+#focus{float:left; width:510px;height:260px;overflow:hidden;position:relative;}
+#focus ul{height:260px;position:absolute;}
+#focus ul li{float:left;width:510px;height:260px;overflow:hidden;position:relative;background:#000;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:510px;height:30px;left:0;bottom:0; background:url(../images/bannerbg.png) no-repeat;}
+#focus .btn{position:absolute;width:510px;height:10px;padding:5px 10px;right:0;bottom:6px;text-align:center;}
+#focus .btn span{ display:inline-block;_display:inline;_zoom:1;width:10px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#FFF; border-radius:12px;}
+#focus .btn span.on{background:#00b9ff;}
+
+.righticon{ float:left; margin-left:10px;}
+.righticon a{ display:block; width:250px; height:80px; text-indent:-9999px;}
+.righticon .yxcz{ background:url(../images/righticon1.png) no-repeat; margin-bottom:10px;}
+.righticon .yxcz:hover{ background:url(../images/righticon1h.png) no-repeat;}
+.righticon .yxlb{ background:url(../images/righticon2.png) no-repeat; margin-bottom:10px;}
+.righticon .yxlb:hover{ background:url(../images/righticon2h.png) no-repeat;}
+.righticon .vip{ background:url(../images/righticon3.png) no-repeat;}
+.righticon .vip:hover{ background:url(../images/righticon3h.png) no-repeat;}
+
+
+#zxzx{}
+/*tab*/
+.tabbg{ position:relative; width:770px; margin-top:12px;}
+.tab_headerbg{ width:770px; height:43px; background:url(../images/tabhbg.png) no-repeat;}
+.tabbg .tab_header{ position:absolute; top:5px; left:1px;}
+.tabbg .tab_header li{ float:left; width:121px; height:38px; color:#fff; font-size:14px; line-height:35px; text-align:center;}
+.tabbg .tab_header li:hover{ cursor:pointer;}
+.tabbg .tab_con{ display:none; width:770px; height:286px; background:url(../images/tabbg.png) no-repeat;}
+#zxzx .Active{ color:#ffb400; background:#fff;}
+
+.more{ position:absolute; top:15px; right:20px; padding-left:20px; color:#fff; background:url(../images/more1.png) no-repeat left;}
+.more:hover{ color:#fff;}
+
+.zxzx_list{text-align:right; overflow:hidden; padding:0px 20px;}
+.zxzx_list li{ overflow:hidden; padding-bottom:3px; border-bottom:#656565 dashed 1px;}
+.zxzx_list .tag{ float:left; width:43px; height:23px; line-height:23px; text-align:left; padding-left:9px; margin-top:4px; margin-right:7px;}
+.zxzx_list a{ color:#393939; float:left; height:29px; line-height:29px; text-align:left;  width:550px;}
+.zxzx_list li:hover a{ color:#99c729;}
+.zxzx_list li:hover .time{}
+.zxzx_list .time{ color:#393939; line-height:29px; float:right;}
+
+.zxzx_list .xw{ background:url(../images/newsicon2.png) no-repeat left;}
+.zxzx_list .hd{ background:url(../images/newsicon3.png) no-repeat left;}
+.zxzx_list .gg{ background:url(../images/newsicon1.png) no-repeat left;}
+
+
+.yxzy{ position:relative; width:770px; height:285px; background:url(../images/zs.jpg) no-repeat; margin-top:10px;}
+.yxzy_header{ position:absolute; top:57px; left:16px; width:256px; font-size:18px; color:#ff8400;}
+.yxzy_header li{ float:left; width:85px; height:30px; line-height:30px; text-align:center; cursor:pointer;}
+#yxzy .acvt{ border-bottom:#ff8400 solid 2px;}
+
+/*游戏资料*/
+.yxzl{ position:relative; width:690px; height:248px; margin-top:10px; padding:0px 40px; background:url(../images/yxzlbg.png) no-repeat;}
+.yxzl h2{ width:770px; height:50px; text-indent:-9999px; margin-bottom:20px;}
+.yxzl span{ display:inline-block; width:88px; height:31px; padding-left:17px; font-size:14px; color:#fff; background:url(../images/yxzllibg.png) no-repeat;}
+.yxzl p{ height:31px; line-height:31px; color:#393939; margin-top:10px;}
+.yxzl p a{ color:#393939; padding:0px 10px; font-size:14px;}
+.yxzl p a:hover{color:#99c729;}
+
+.more1{ position:absolute; top:23px; right:29px; font-size:14px; padding-left:20px; color:#ff8400; background:url(../images/more2.png) no-repeat left;}
+.more1:hover{ color:#ff8400;}
+
+
+/*游戏截图 友情链接*/
+.allwidth{ position:relative; width:1020px; height:188px; margin-top:10px; background:url(../images/yxjtbg.png) no-repeat bottom; padding-bottom:20px;}
+.allwidth h2{ width:1020px; height:41px; text-indent:-9999px;}
+.allwidth .more{ top:10px; color:#fff;}
+.allwidth ul li{ float:left; margin-left:40px; margin-top:10px;}
+.allwidth p{ height:50px; overflow:hidden; color:#393939; line-height:25px; padding:20px 25px 0 25px;}
+.allwidth p a{ display:inline-block; color:#393939; margin-left:10px; margin-right:10px;}
+.allwidth p a:hover{color:#99c729;}
+
+#yqlj{ height:125px; border-top-left-radius:10px; border-top-right-radius:10px;}
+
+#yxjt h2{ background:url(../images/yxjt.png) no-repeat;}
+#yqlj h2{ background:url(../images/yqlj.png) no-repeat;}
+
